@@ -3,15 +3,7 @@
 Js OOP 
 
 
-function getElement(selection) {
-  const element = document.querySelector(selection);
-  if (element) {
-    return element;
-  }
-  throw new Error(
-    `Please check "${selection}" selector, no such element exists`
-  );
-}
+
 //this מאפשר להוסיף את הערך של המשתנה
 function Counter(element, value) {
   this.counter = element;
